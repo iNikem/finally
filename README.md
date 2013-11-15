@@ -1,0 +1,1 @@
+I want to write an agent, using ASM, which will instrument some method invocations and will put a try-finally block around them. Some code should be executed before original method invocation and some code in finally block. So far I have problem instrumenting invocations which are already inside anothe try-catch block.
